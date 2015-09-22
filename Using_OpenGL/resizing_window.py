@@ -10,9 +10,9 @@ window = pyglet.window.Window(width=300, height=300, resizable=True)
 
 
 vertices = [
-        0, 0,
-        200, 0,
-        100,200
+        50, 0,
+        100, 0,
+        100,100
         ]
 # преобразуем в OpenGL / ctypes массив:
 vertices_gl = (GLfloat* len(vertices))(*vertices)
