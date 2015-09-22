@@ -35,7 +35,7 @@ glVertexPointer(2, GL_FLOAT, 0, vertices_gl)
 
 @window.event
 def on_resize(width, height):
-    glViewport(0, 0, 300, 600)
+    glViewport(0, 0, width, height)
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()                # Сброс просмотра
     # Задаем усеченную пирамиду видимости.
