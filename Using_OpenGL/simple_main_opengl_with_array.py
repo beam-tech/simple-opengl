@@ -4,7 +4,7 @@
 from pyglet.gl import *
 
 # будем вводить команды OpenGL в window
-window = pyglet.window.Window()
+window = pyglet.window.Window(300, 300)
 
 # создаем масcив вершин из координат
 vertices = [
